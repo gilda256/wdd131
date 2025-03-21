@@ -1,5 +1,5 @@
 header{
-    background-color: #006184;
+    background-color: #002E4F;
     color: white;
     display: grid;
     grid-gap: 1rem;
@@ -12,7 +12,7 @@ header{
 
 a{
     text-decoration: none;
-    color: aliceblue;
+    color: #E8F0FE;
     display: block;
     padding: 0.75rem;
     text-align: left;
@@ -36,7 +36,7 @@ main{
 
 footer {
     margin-top: 20px;
-    background-color: #006184;
+    background-color: #1C1C1C;
     color: white;
     text-align: center;
     padding: .20rem;
@@ -48,6 +48,7 @@ footer {
     font-weight: 700;
     text-decoration: none;
     padding: .5rem .75rem;
+    color: #FFD700;
 }
 
 #menu::before{
@@ -62,7 +63,7 @@ footer {
     margin: 0 auto;
     padding: 0;
     max-width: 760px;
-    background-color: white;
+    background-color: #F4F4F9;
 }
 
 .navigation li {
@@ -70,11 +71,11 @@ footer {
 }
 
 .navigation a{
-    color: rgb(0, 125, 165);
+    color: #005A8D;
     padding: 15px;
 }
 .navigation a:hover{
-    background-color: #006184;
+    background-color: #002E4F;
     color: white;
 }
 
