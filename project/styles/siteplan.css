@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    color: #222;
+    padding: 2rem;
+    line-height: 1.8;
+  }
+  
+  h1, h2 {
+    color: #006d77;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    border-bottom: 2px solid #83c5be;
+    padding-bottom: 0.5rem;
+  }
+  
+  .highlight {
+    background-color: #e0fbfc;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+  }
+  
+  img.logo {
+    height: 60px;
+  }
+
+  .wireframe {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+  }
+  
