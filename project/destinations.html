@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destinations | Explore With Us</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/destinations.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="guide.html">Travel Guide</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Explore Destinations</h1>
+
+    <section>
+      <label for="filter">Filter by type:</label>
+      <select id="filter">
+        <option value="all">All</option>
+        <option value="nature">Nature</option>
+        <option value="historic">Historic</option>
+        <option value="adventure">Adventure</option>
+      </select>
+    </section>
+
+    <section id="destination-list" class="grid-container"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Explore With Us</p>
+    <p><a href="references.html">Images</a></p>
+  </footer>
+</body>
+</html>
